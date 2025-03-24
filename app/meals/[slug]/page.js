@@ -1,3 +1,3 @@
-export default function MealsItemPage() {
-  return <h1>Meals Item Page</h1>;
+export default function MealsItemPage({ params }) {
+  return <h1>Meals {params.slug} Page</h1>;
 }
